@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+body{
+    font-size: 16px;
+	color: #0F274C;
+    font-family: "Nunito Sans", serif;
+}
+
+header{
+    background: linear-gradient(to right, #0057b7 30%, #0b2c58 70%);
+}
+
+.btn-primary{
+    background-color: #03AED2;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+	border: 0px;
+}
+
+.section{
+	padding: 2% 0 3%;
+}
+
+#hero {
+	background-image: url("../img/fondo-hero-home.png");
+	background-blend-mode: multiply;
+	background-color: rgba(0,0,0,0.50);
+	background-position: center;
+	background-size: cover;
+	padding: 10% 1% 0;
+	color: #fff;
+}
+     
+.title{
+	font-size: 80px;
+	font-weight: bold;
+	line-height: 1;
+}
+
+#hero h2{
+	font-weight: 800;
+	font-size: 70px;
+	text-transform: uppercase;
+}
+
+.subtext{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	background-color: #CDEFF6;
+	padding: 1% 0;
+}
+
+#stats p{
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 1;
+	
+}
+
+.tgu{
+	background-image: url("../img/campus-unitec-tgu.jpg");
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: multiply;
+	background-color: rgba(0,0,0,0.50);
+	height: 400px;
+}
+
+.sps{
+	background-image: url("../img/campus-unitec-sps.jpg");
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: multiply;
+	background-color: rgba(0,0,0,0.50);
+	height: 400px;
+}
+
+#campus p{
+	color: #fff;
+	font-size: 30px;
+	padding-top: 350px;
+	padding-left: 25px;
+}
+
+
+.beca-text {
+    background-color: #0b2c58;
+    color: white;
+    padding: 10% 15%;
+    border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+    font-size: 25px;
+	text-align: left;
+}
+
+
+#programas-academicos{
+    background: #0047BB;
+    color: white;
+    text-align: center;
+    padding: 40px 20px 0;
+}
+
+.btn-secondary{
+	font-size: 20px;
+    background: white;
+    color: #0F274C;
+	padding: 10px 38px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.servicios-comunidad {
+    background: #fff;
+	color: #0F274C;
+    padding: 20px;
+    border-radius: 10px;
+	margin-bottom: 30px
+}
+
+.servicio {
+    background: #001F5B;
+    color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-options{
+    background: #0F49B5;
+	width: 100%;
+	color: #fff;
+	margin-bottom: 10px
+}
+
+.btn-options:hover{
+	color: #fff;
+    background:  #06065C;
+}
+
+.btn-oportunidades {
+    background: #0F274C;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+footer{
+	color: #0F274C;
+}
+
+.footer-home{
+    background-color: #0F49B6;
+}
+
+.footer-faq{
+    background-color: #002856;
+}
+
+.footer-all-container{
+	padding: 20px 0;
+	background: #fff;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
+	box-shadow: 0px 5px 15px 5px rgba(0,0,0,0.2);
+}
+
+.socials{
+	text-align: center
+}
+.socials a{
+	color:  #0F274C;
+	padding: 10px;
+}
+
+.mision{
+    background: rgb(15,73,182);
+    background: linear-gradient(72deg, rgba(15,73,182,1) 0%, rgba(7,32,80,1) 100%);
+    color: white;
+    padding: 5%;
+    border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+    font-size: 16px;
+}
+
+.vision{
+    border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+.mision-box{
+	padding-right: 40%;
+}
+
+.vision-box{
+	padding-left: 40%;
+}
+
+#hero-about, #valores{
+	background-image: url("../img/fondo-unitec-patron-claro.png");
+	background-position: center;
+	background-size: cover;
+}
+
+.h2-titulos{
+	font-weight: 700;
+	font-size: 40px;
+}
+
+  .valores-card {
+    background: linear-gradient(135deg, #001c71, #003b71);
+    color: #fff;
+    padding: 30px;
+    border-radius: 40px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .valores-card h3 {
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  
+  .valores-card p {
+    margin-bottom: 0;
+    font-weight: 400;
+  }
+
+.banner {
+ 	background-image: url("../img/banner_unitec.png");
+	background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.container-preguntas{
+	background-color: #002856;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.faq {
+    background-color: #f1f5f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.faq h5 {
+    color: #002856;
+    font-weight: 600;
+    margin: 0;
+    font-size: 16px;
+}
+
+.faq-item {
+   	border: solid 2px #D0E1F4;
+	border-radius: 12px; 
+    margin: 10px 15px;
+}
+
+.faq-question {
+    font-weight: bold; 
+    color: #0C2147;
+    padding: 8px 10px; 
+    background-color: #D0E1F4; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.faq-answer {
+    padding: 10px;
+    color: #333; 
+    background-color: white;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+}
+
+
+.faq p {
+    margin: 5px 0 0;
+    color: #555;
+    font-size: 14px;
+}
+
+
+#consultas {
+    color: #fff;
+	background-color: #002856;
+	text-align: center;
+	padding-top: 50px;
+}
+
+#consultas h2 {
+	padding-top: 130px;
+}
+
+#consultas h3 {
+	color: #0099ff;
+	text-align: center;
+	padding-top: 80px; 
+}
