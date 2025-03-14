@@ -23,11 +23,12 @@ a:hover{
 }
 .navbar-light .navbar-nav .active.nav-link{
 	background-color:transparent;
-	color:var(--color-azul);
+	color:#157ED2;
+	text-decoration: underline;
 }
 .navbar-light .navbar-nav .active.nav-link:hover{
 	background-color:transparent;
-	color:var(--color-azul);
+	color:#fff;
 	
 }
 

@@ -197,11 +197,11 @@ footer{
 	border-bottom-left-radius: 50px;
 }
 
-.mision-box{
+.margen-der{
 	padding-right: 40%;
 }
 
-.vision-box{
+.margen-izq{
 	padding-left: 40%;
 }
 
@@ -234,7 +234,7 @@ footer{
     font-weight: 400;
   }
 
-.banner {
+.banner{
  	background-image: url("../img/banner_unitec.png");
 	background-size: cover;
     background-position: center;
@@ -311,4 +311,177 @@ footer{
 	color: #0099ff;
 	text-align: center;
 	padding-top: 80px; 
+}
+
+#hero-actividades {
+	background: url("../img/coro.jpg");
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: multiply;
+	background-color: rgba(0,0,0,0.50);
+	height: 500px;
+	color: #fff;
+	padding-top: 10%;
+  }
+  
+#hero-actividades p {
+	font-size: 24px;
+	padding-right: 30%;
+  }
+
+#asociaciones{
+	background-color: #fff;
+  }
+ 
+#reczen{
+	background: url("../img/reczen.jpg");
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: multiply;
+	background-color: rgba(0,0,0,0.50);
+	height: 500px;
+	color: #fff;
+	padding-top: 10%;
+  }
+  
+.reczen-title{
+	font-size: 50px;
+	font-weight: 500;
+	color: #fff;
+	margin-bottom: 30px;
+	text-align: center;
+  }
+
+.div-izq{
+    background-color: #0F49B6;
+    color: white;
+    border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+    font-size: 16px;
+}
+
+.div-der{
+    background-color: #0F49B6;
+    color: white;
+    border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+    font-size: 16px;
+}
+
+.margen-der-extra{
+	padding-right: 20%;
+}
+
+.margen-izq-extra{
+	padding-left: 20%;
+}
+
+.icono-azul{
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 100%;
+	background-color: rgba(17,184,210,0.40);
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 20px; 
+}
+
+#contactanos{
+	background-color: #002856;
+	text-align:center;
+	color: #fff;
+}
+		
+#contact .cta-box{
+	padding-top: 4%;
+}	
+	
+
+#form input,
+#form textarea{
+	background-color:#E7E7E7;
+	border-radius: 10;
+	padding: 10px;
+	boder: 0;
+	font-size: 14px
+		
+}
+#form input:placeholder,
+form textarea:placeholder{
+	color:#aaa;
+}
+
+.bg-pregrado{
+ background: linear-gradient(to right, #0057b7 30%, #0b2c58 70%);
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 50px;
+	color: #fff;
+}
+
+.banner-pregrado{
+   background-image: url("../img/fondo-unitec-patron-claro.png");
+	 background-size: cover;
+    background-position: center;
+    color: #002856;
+    text-align: center;
+    padding: 60px 0;
+	margin: 0px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+section ul {
+    padding-left: 20px;
+}
+section ul li {
+    font-size: 1.1rem;
+    line-height: 1.8;
+	color: white;
+}
+
+.img-curva {
+    border-radius: 70px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#hero-deportes{
+	background-image: url("../img/programa de deportes-hero.jpeg");
+	background-blend-mode: multiply;
+	background-color: rgba(0,0,0,0.50);
+	background-position: center;
+	background-size: cover;
+	padding: 10% 1% 0;
+	color: #fff;
+}
+
+
+#hero-deportes h2{
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+#disciplinas h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#beneficios {
+	text-align: left;
+	color: #fff;
+	background-image: url("../img/beneficios_1.png");
+	background-blend-mode: multiply;
+	background-color: rgba(0,0,0,0.50);
+	background-position: center;
+	background-size: cover;
+}
+
+#beneficios h2 {
+	padding-bottom: 200px;
+	text-align: center;
+	text-transform: uppercase;
 }
