@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Home - UNITEC</title>
+	<link rel="icon" href="img/favicon.png">
 	<meta name="description" content="Bienvenido a UNITEC, una universidad líder en educación superior con programas innovadores, instalaciones de primer nivel y una comunidad estudiantil vibrante.">
   <meta name="keywords" content="UNITEC, universidad UNITEC, educación superior, carreras universitarias, estudiar en UNITEC, admisiones UNITEC">
 <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -13,7 +14,7 @@
 </head>
 	
 <body>
-    <header>
+     <header>
         <div class="container-fluid"> 
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
   			<a class="navbar-brand" href="index.html">
@@ -23,39 +24,47 @@
   		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
    		 <i class="fa-solid fa-bars"></i>
   		</button>
-
 	   
 	   
 			<div class="collapse navbar-collapse" id="navbar">
 				<ul class="navbar-nav ms-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="pregrado.html">Pregrado</a>
-					</li>
-					
-					<li class="nav-item">
-						<a class="nav-link" href="actividades extracurriculares.html">Actividades extracurriculares</a>
-					</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="programasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						Programas Académicos
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="programasDropdown">
+						<li><a class="dropdown-item" href="pregrado.html">Pregrado</a></li>
+						<li><a class="dropdown-item" href="postgrado.html">Postgrado</a></li>
+					</ul>
+				</li>
 
-					<li class="nav-item">
-						<a class="nav-link" href="deportes.html">Deportes</a>
-					</li>
-					
-					<li class="nav-item">
-						<a class="nav-link" href="preguntas-frecuentes.html">Preguntas Frecuentes</a>
-					</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="serviciosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						Vida Universitaria
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="serviciosDropdown">
+						<li><a class="dropdown-item" href="servicios-estudiantiles.html">Servicios Estudiantiles</a></li>
+						<li><a class="dropdown-item" href="actividades-extracurriculares.html">Actividades Extracurriculares</a></li>
+						<li><a class="dropdown-item" href="deportes.html">Deportes</a></li>
+						<li><a class="dropdown-item" href="becas.html">Becas</a></li>
+						<li><a class="dropdown-item" href="empleabilidad.html">Centro de Empleabilidad</a></li>
+					</ul>
+				</li>
 
-					<li class="nav-item">
-						<a class="nav-link" href="sobre-nosotros.html">Sobre Nosotros</a>
-					</li>
+				<li class="nav-item">
+					<a class="nav-link" href="preguntas-frecuentes.html">Preguntas Frecuentes</a>
+				</li>
 
-					<li class="nav-item">
-						<a href="contacto.html" class="btn btn-primary mt">Contáctanos</a>
-					</li>
-				</ul>
-				
+				<li class="nav-item">
+					<a class="nav-link" href="sobre-nosotros.html">Sobre Nosotros</a>
+				</li>
+
+				<li class="nav-item">
+					<a href="contacto.html" class="btn btn-primary mt">Contáctanos</a>
+				</li>
+			</ul>
 			</div>
 		</nav>
-	
         </div>
     </header>
     
